@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import myVideo from './training.mp4';
+import myVideo from './training2.mp4';
 
 function HomeVideo() {
   const videoRef = useRef(null);

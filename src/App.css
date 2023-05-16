@@ -70,3 +70,72 @@ a:hover::after{
   border-radius: 25px;
   margin-left: 5vw;
 }
+
+.training-reasons {
+  display: flex;
+  justify-content: center;
+  margin-left: 1vw;
+  
+}
+
+
+.training-reasons img{
+  height: auto;
+  width: 25vw;
+  padding: 50px;
+  border-radius: 75px;
+  
+}
+
+.quote {
+  position: relative;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #333;
+  margin: 2rem 0;
+  padding: 1rem;
+  border-left: 5px solid #ccc;
+}
+
+.quote p {
+  margin: 0;
+}
+
+.quote::before {
+  content: '\201C'; 
+  position: absolute;
+  font-size: 3rem;
+  color: #ccc;
+  top: -1.5rem;
+  left: -0.5rem;
+}
+
+.quote::after {
+  content: '\201D'; 
+  position: absolute;
+  font-size: 3rem;
+  color: #ccc;
+  bottom: -1.5rem;
+  right: -0.5rem;
+}
+
+
+.quote-container {
+  width: 90vw;
+  margin-left: 5vw;
+}
+
+.quote cite {
+  display: block;
+  text-align: right;
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #999;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
