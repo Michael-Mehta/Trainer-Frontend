@@ -3,6 +3,9 @@
 }
 
 .navbar-container {
+  position: sticky;
+  top: 0;
+  z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -59,4 +62,11 @@ a:hover::after{
 .logo {
   width: 150px;
   margin-top: -30px;
+}
+
+.home-vid {
+  width: 90vw;
+  height: auto;
+  border-radius: 25px;
+  margin-left: 5vw;
 }
