@@ -139,3 +139,10 @@ a:hover::after{
   padding: 20px;
   text-align: center;
 }
+
+.contact-us-pic {
+  width: 90vw;
+  height: auto;
+  border-radius: 50px;
+  margin-left: 5vw;
+}

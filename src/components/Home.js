@@ -4,6 +4,7 @@ import HomeVideo from './HomeVideo';
 import image1 from './trainingpic1.png';
 import image2 from './trainingpic2.png';
 import image3 from './trainingpic3.png';
+import contactpic from './contactpic3.png';
 
 const Home = () => {
 
@@ -42,6 +43,8 @@ const Home = () => {
                 <img src = {image3} alt = 'training reason'/>
 
             </div>
+
+            <div><img src = {contactpic} alt = 'contact us' className='contact-us-pic'/></div>
 
         </div>
     )
